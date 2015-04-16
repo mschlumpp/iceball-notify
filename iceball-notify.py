@@ -29,7 +29,7 @@ if __name__ == "__main__":
     while True:
         # Download server list
         jsn = {}
-        fobj = urllib2.urlopen("http://play.iceballga.me:27790/master.json")
+        fobj = urllib2.urlopen("http://magicannon.com:27790/master.json")
         jsn = json.load(fobj)
         fobj.close()
 
